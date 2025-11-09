@@ -1,0 +1,8 @@
+{
+    "require": {
+        "mpdf/mpdf": "*",
+        "smalot/pdfparser": "^2.12",
+        "phpoffice/phpspreadsheet": "^5.0",
+        "box/spout": "^3.3"
+    }
+}

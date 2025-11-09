@@ -1,0 +1,103 @@
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+
+        .header-container {
+            position: relative;
+            text-align: center;
+            margin-bottom: 20px;
+            padding: 15px;
+            background-color: #fff;
+            border: 2px solid #000;
+            border-radius: 8px;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Left Logo */
+        .header-container .left-logo {
+            position: absolute;
+            left: 10em;
+            top: 2em;
+            height: 70px;
+            transform: scale(1.5); 
+        }
+
+        /* Right Logo */
+        .header-container .right-logo {
+            position: absolute;
+            right: 10em;
+            top: 2em;
+            height: 70px;
+        }
+
+        /* Company Name */
+        .company-title {
+            font-size: 24px;
+            font-weight: bold;
+            margin: 0;
+            color: #000;
+        }
+
+        /* Subheading */
+        .sub-title {
+            font-size: 16px;
+            margin: 5px 0;
+        }
+
+        /* Logsheets heading */
+        .logsheet-title {
+            border: 1px solid black;
+            width: 50%;
+            margin: 8px auto;
+            padding: 6px;
+            font-weight: bold;
+            background-color: #f1f1f1;
+            border-radius: 4px;
+        }
+
+        /* Form Styling */
+        .form-container {
+            position: relative;
+            text-align: center;
+            margin-bottom: 20px;
+            padding: 15px;
+            background-color: #fff;
+            border: 2px solid #000;
+            border-radius: 8px;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+            
+        }
+
+        .form-container label {
+            font-size: 16px;
+            font-weight: bold;
+            margin-right: 10px;
+        }
+
+        .form-container input[type="date"] {
+            padding: 8px 12px;
+            font-size: 15px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .form-container button {
+            margin-left: 15px;
+            padding: 8px 16px;
+            background-color: #007BFF;
+            color: #fff;
+            font-size: 15px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background 0.3s ease;
+        }
+
+        .form-container button:hover {
+            background-color: #0056b3;
+        }
+    

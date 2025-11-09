@@ -1,0 +1,8 @@
+RewriteEngine On
+
+
+# Remove .php extension for User.php
+RewriteRule ^User$ User.php [L]
+
+# Optional: hide .php for Process.php too
+RewriteRule ^Process$ Process.php [L]

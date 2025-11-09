@@ -1,0 +1,41 @@
+/* Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Main Container */
+.container {
+    text-align: center;
+    background: #fff;
+    padding: 30px 40px;
+    border-radius: 12px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    width: 100%;
+}
+
+/* Success Message */
+.success-msg {
+    font-size: 18px;
+    color: #28a745;
+    margin-bottom: 15px;
+}
+
+/* File Path Box */
+.file-path {
+    background: #f4f4f4;
+    padding: 8px 12px;
+    display: inline-block;
+    border-radius: 6px;
+    font-size: 14px;
+    border: 1px solid #ddd;
+    color: #333;
+    word-break: break-all;
+}
